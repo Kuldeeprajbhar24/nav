@@ -1,0 +1,56 @@
+/* img{
+    margin-top: 20px;
+    position: relative; 
+    position: absolute;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hotpink;
+}
+
+nav{
+    background-color: aqua;
+    
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: 30px;
+    color: black;
+}
+a:hover{
+    color:red;
+    background-color:white;
+    border-radius: 10px;
+}
+#menu1, #menu2, #menu3{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+#drop1:hover #menu1{
+    display: block;
+
+}
+
+#drop2:hover #menu2{
+    display: block;
+
+}
+
+#drop3:hover #menu3{
+    display: block;
+
+}
